@@ -42,7 +42,7 @@ rm -fr %{buildroot}
 %{_bindir}/sphinx*
 %{_libdir}/libsphinx*
 %{_libdir}/pkgconfig/%{name}.pc
-%{_libdir}/python2.6/site-packages/*
+%{py_platsitedir}/*
 
 %files devel
 %defattr(-,root,root)
