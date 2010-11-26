@@ -3,7 +3,7 @@ Version: 0.6.1
 Release: %mkrel 1
 BuildRoot: %{_tmppath}/%{name}-%{version}
 Summary: Base files of CMU Sphinx Recognition System
-Group: Applications/Multimedia
+Group: Sound
 License: BSD and LGPLv2+
 Url: http://cmusphinx.sourceforge.net/
 Source: http://downloads.sourceforge.net/cmusphinx/%name-%version.tar.gz
