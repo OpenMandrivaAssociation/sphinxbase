@@ -7,6 +7,7 @@ Group: Sound
 License: BSD and LGPLv2+
 Url: http://cmusphinx.sourceforge.net/
 Source: http://downloads.sourceforge.net/cmusphinx/%name-%version.tar.gz
+BuildRequires: python-devel
 
 %description
 The CMU Sphinx Recognition System is a library and a set
