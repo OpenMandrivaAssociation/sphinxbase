@@ -17,7 +17,7 @@ This package will install the cmu-sphinx library and some examples.
 
 %package devel
 Summary: Header files for developing with sphinxbase
-Group: Applications/Multimedia
+Group: Sound
 Requires: pkgconfig
 
 %description devel
