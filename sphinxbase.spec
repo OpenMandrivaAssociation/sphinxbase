@@ -1,6 +1,6 @@
 Name: sphinxbase
 Version: 0.6.1
-Release: %mkrel 1
+Release: %mkrel 2
 BuildRoot: %{_tmppath}/%{name}-%{version}
 Summary: Base files of CMU Sphinx Recognition System
 Group: Sound
@@ -18,7 +18,8 @@ This package will install the cmu-sphinx library and some examples.
 %package devel
 Summary: Header files for developing with sphinxbase
 Group: Sound
-Requires: pkgconfig
+Requires: %{name} = %{version}-%{release}, pkgconfig
+Provides: %{name}-devel = %{version}-%{release}
 
 %description devel
 Header files for developing with sphinxbase
