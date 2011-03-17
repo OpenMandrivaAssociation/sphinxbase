@@ -1,6 +1,6 @@
 Name: sphinxbase
 Version: 0.6.1
-Release: %mkrel 2
+Release: %mkrel 3
 BuildRoot: %{_tmppath}/%{name}-%{version}
 Summary: Base files of CMU Sphinx Recognition System
 Group: Sound
