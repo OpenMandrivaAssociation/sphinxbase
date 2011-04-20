@@ -44,6 +44,7 @@ rm -fr %{buildroot}
 %{_bindir}/sphinx*
 %{_libdir}/libsphinx*
 %{_libdir}/pkgconfig/%{name}.pc
+%{py_platsitedir}/*
 
 %files devel
 %defattr(-,root,root)
