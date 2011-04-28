@@ -1,6 +1,6 @@
 Name: sphinxbase
 Version: 0.7
-Release: %mkrel 0
+Release: %mkrel 1
 BuildRoot: %{_tmppath}/%{name}-%{version}
 Summary: Base files of CMU Sphinx Recognition System
 Group: System/Libraries
@@ -8,6 +8,7 @@ License: BSD and LGPLv2+
 Url: http://cmusphinx.sourceforge.net/
 Source: http://downloads.sourceforge.net/cmusphinx/%name-%version.tar.gz
 BuildRequires: bison python-devel
+Patch0: sphinxbase.patch
 
 %description
 The CMU Sphinx Recognition System is a library and a set
@@ -26,6 +27,7 @@ Header files for developing with sphinxbase
 
 %prep
 %setup -q -n %{name}-%{version}
+%patch0 -p1 -b .lda
 
 %build
 ./autogen.sh
