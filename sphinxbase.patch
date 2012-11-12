@@ -1,0 +1,13 @@
+diff -ur ./sphinxbase-0.7//include/sphinxbase/feat.h ./sphinxbase//include/sphinxbase/feat.h
+--- sphinxbase-0.7/include/sphinxbase/feat.h	2011-04-14 20:22:04.000000000 +0400
++++ sphinxbase/include/sphinxbase/feat.h	2011-04-28 02:59:04.000000000 +0400
+@@ -238,7 +238,8 @@
+ /**
+  * Array with stream/subvector lengths
+  */
+-#define feat_stream_lengths(f)	((f)->sv_len ? (f)->sv_len : f->stream_len)
++//#define feat_stream_lengths(f)	((f)->sv_len ? (f)->sv_len : f->stream_len)
++#define feat_stream_lengths(f)  ((f)->lda ? (&(f)->out_dim) : (f)->sv_len ? (f)->sv_len : f->stream_len)
+ 
+ /**
+  * Parse subvector specification string.
