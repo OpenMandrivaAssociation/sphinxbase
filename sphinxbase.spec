@@ -1,12 +1,12 @@
 Name: sphinxbase
-Version: 0.7
-Release: %mkrel 1
+Version: 0.8
+Release: 1
 BuildRoot: %{_tmppath}/%{name}-%{version}
 Summary: Base files of CMU Sphinx Recognition System
 Group: System/Libraries
 License: BSD and LGPLv2+
 Url: http://cmusphinx.sourceforge.net/
-Source: http://downloads.sourceforge.net/cmusphinx/%name-%version.tar.gz
+Source: https://sourceforge.net/projects/cmusphinx/files/sphinxbase/0.8/%{name}-%{version}.tar.gz
 BuildRequires: bison python-devel
 Patch0: sphinxbase.patch
 
@@ -81,4 +81,5 @@ rm -fr %{buildroot}
   + zamir <zamir@mandriva.org>
     - firts build
     - Created package structure for sphinxbase.
+
 

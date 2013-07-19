@@ -1,2 +1,4 @@
+removed_sources:
+  sphinxbase-0.7.tar.gz: c92d06e304a69b3925be7b4790625dd115c3bcd2
 sources:
-  "sphinxbase-0.7.tar.gz": c92d06e304a69b3925be7b4790625dd115c3bcd2
+  sphinxbase-0.8.tar.gz: c0c4d52e143d07cd593bd6bcaeb92b9a8a5a8c8e
