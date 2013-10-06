@@ -1,7 +1,6 @@
 Name: sphinxbase
 Version: 0.8
 Release: 1
-BuildRoot: %{_tmppath}/%{name}-%{version}
 Summary: Base files of CMU Sphinx Recognition System
 Group: System/Libraries
 License: BSD and LGPLv2+
@@ -42,14 +41,12 @@ rm -fr %{buildroot}
 rm -fr %{buildroot}
 
 %files
-%defattr(-,root,root)
 %{_bindir}/sphinx*
 %{_libdir}/libsphinx*
 %{_libdir}/pkgconfig/%{name}.pc
 %{py_platsitedir}/*
 
 %files devel
-%defattr(-,root,root)
 %{_includedir}/%{name}
 
 
