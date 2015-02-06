@@ -1,6 +1,6 @@
 Name: sphinxbase
 Version: 0.7
-Release: %mkrel 1
+Release: 2
 BuildRoot: %{_tmppath}/%{name}-%{version}
 Summary: Base files of CMU Sphinx Recognition System
 Group: System/Libraries
