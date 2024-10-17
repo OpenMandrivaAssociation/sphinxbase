@@ -5,7 +5,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}
 Summary: Base files of CMU Sphinx Recognition System
 Group: System/Libraries
 License: BSD and LGPLv2+
-Url: http://cmusphinx.sourceforge.net/
+Url: https://cmusphinx.sourceforge.net/
 Source: http://downloads.sourceforge.net/cmusphinx/%name-%version.tar.gz
 BuildRequires: bison python-devel
 Patch0: sphinxbase.patch
